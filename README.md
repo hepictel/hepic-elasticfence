@@ -1,9 +1,10 @@
 <img src="https://avatars3.githubusercontent.com/u/12463357?v=3" />
-# docker-elasticfence
+
+# hepic-elasticfence
 Docker container running the Elasticfence Stack + HEPIC Dashboards
 
 - Elasticsearch 2.4.1 
-- Kibi 4.5.4 + Siren 2.4.1
+- Kibi 4.6.4 + Siren 2.4.1
 - Elasticfence Auth _(root/elasticFence)_
 - Kibana-auth-elasticfence
 - KiBrand 0.4.5
