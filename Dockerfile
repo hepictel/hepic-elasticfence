@@ -37,7 +37,7 @@ RUN cd /opt/kibi \
  && cd /usr/share/elasticsearch \
  && ./bin/plugin install https://raw.githubusercontent.com/elasticfence/elasticsearch-http-user-auth/2.4.1/jar/elasticfence-2.4.1-SNAPSHOT.zip
 
-RUN apt-get update && apt-get install nano git && apt-get clean \
+RUN apt-get update && apt-get -y install nano git && apt-get clean \
  && cd /usr/src && git clone https://github.com/hepictel/kibi-dashboards
  
 COPY entrypoint.sh /opt/
